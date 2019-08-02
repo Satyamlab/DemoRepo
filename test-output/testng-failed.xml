@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Listener.ExtentReportList"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="Test.Login">
+        <methods>
+          <include name="Login0"/>
+        </methods>
+      </class> <!-- Test.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
