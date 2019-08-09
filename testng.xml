@@ -15,6 +15,7 @@
       <class name="Test.Login"/>
 	     <class name="Test.Logout"/>
 	    <class name="satyammaster"/>
+	    <class name="updated patch"/>
   </classes>
   
   </test> <!-- Test -->
